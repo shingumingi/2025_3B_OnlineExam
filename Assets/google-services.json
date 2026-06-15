@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075877838387",
+    "project_id": "exam-68eae",
+    "storage_bucket": "exam-68eae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075877838387:android:15ef3de1d8dc163b556d46",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.OnlineExam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2uxR0-V5hdTCFGSFCdcQqWAeaUCuzmy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
