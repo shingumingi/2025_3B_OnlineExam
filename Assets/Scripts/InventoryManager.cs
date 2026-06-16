@@ -29,6 +29,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] Text MessageText;
 
     [SerializeField] string NextSceneName = "MainScene";
+    [SerializeField] string GameSceneName = "GameScene";
 
     string userKey;
     Dictionary<string, int> inventory = new Dictionary<string, int>();
@@ -54,6 +55,11 @@ public class InventoryManager : MonoBehaviour
     public void MoveStoreScene()
     {
         SceneManager.LoadScene(NextSceneName);
+    }
+
+    public void MoveGameScene()
+    {
+        SceneManager.LoadScene(GameSceneName);
     }
 
     void LoadInventory()
